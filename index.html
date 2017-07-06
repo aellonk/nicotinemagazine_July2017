@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="nicotine is a fashion and art magazine">
+    <meta name="description" content="nicotine is a quarterly fashion and art magazine based in new york">
     <title>NicOtiNe</title>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/style.css">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
    </head>
   <body>
@@ -16,13 +16,21 @@
       <ul>
         <a href="about.html"><li>about</li></a>
         <a href="index.html"><li>current</li></a>
-        <a href="print_archive.html"><li>print archive</li></a>
+        <li id="print_archive">print archive</li>
         <a href="index.html"><li id="logo">NicOtiNe</li></a>
         <a href="contact.html"><li>contact</li></a>
         <a href="shop.html"><li>shop</li></a>
         <a href="digital_archive.html"><li>digital archive</li></a>
       </ul>
       </div>
+
+    <div class="main">
+      <div class="slider">
+        <div class="slide" id="img0" onclick="$('.slider').slick('slickGoTo', 1);"></div>
+        <div class="slide" id="img1" onclick="$('.slider').slick('slickGoTo', 2);"></div>
+      </div>
+    </div>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
     <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>

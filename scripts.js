@@ -5,12 +5,12 @@ $(document).ready(function(){
     mobileFirst: true,
 	  slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: 1,
+    initialSlide: 0,
     arrows: false,    
     dots: false,
     infinite: true,
     speed: 5,
-    variableWidth: false,
+    variableWidth: true,
     cssEase: 'ease',
     appendArrows: $('.button')
   });
