@@ -18,6 +18,10 @@ html, body {
   overflow: hidden;
 }
 
+.container{
+  width: 100%;
+  }
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -37,4 +41,66 @@ ul li#logo {
 ul a {
   text-decoration: none;
   color: inherit;
+}
+.center {
+  text-align: center;
+}
+
+.bottom-align {
+  position: absolute;
+  bottom: 5px;
+}
+
+
+
+address {
+  padding-bottom: 1em;
+}
+
+address a {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+  font-size: .75em;
+}
+
+address p {
+  font-size: 2em;
+  margin: 0;
+  padding-top: 5px;
+}
+
+footer {
+  padding-bottom: .25em;
+}
+
+div.social-media img {
+  max-height: 30px;
+    max-width: 30px;
+     width: auto;
+     height: auto;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
 }
