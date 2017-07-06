@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Futura';
+    src: local('Futura Medium'), 
+        local('Futura-Medium'),
+        local('Futura_Medium'),
+        url('fonts/Futura_Medium.otf')
+        format('opentype');
+    src: local('Futura Medium'), 
+        local('Futura-Medium'),
+        local('Futura_Medium'),
+        url('fonts/Futura_ICG.ttf')
+        format('truetype');
+}
+
+html, body {
+  font-family: 'Futura', sans-serif;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+ul li#logo {
+  font-size: 30px;
+}
