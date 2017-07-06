@@ -192,7 +192,7 @@ p#description {
 /*//////// SLIDER IMAGES /////////*/
 
 #img0 {
-  background-image: url("../images/issue01_cover_placeholder.jpg");
+  background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +201,7 @@ p#description {
 }
 
 #img1 {
-  background-image: url("../images/placeholder_current_2.jpg");
+  background-image: url("../placeholderimages/placeholder_current_2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
