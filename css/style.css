@@ -22,8 +22,11 @@ html, body {
   width: 100%;
 }
 
-div#navbar {
+/*div#navbar {
   letter-spacing: -1.4px;
+}*/
+.nav {
+  letter-spacing: -.3px;
 }
 
 ul {
@@ -40,6 +43,7 @@ ul li {
 
 ul li#logo {
   font-size: 30px;
+  letter-spacing: -1.4px;
 }
 
 ul li#print_archive {
@@ -193,6 +197,22 @@ p#description {
   margin: .5% .5% 14px 0;
 }
 
+.paypal_btn{
+display: inline-block;
+font-family: inherit;
+font-size: 1em;
+font-weight: bold;
+color: #000;
+text-align: center;
+padding: 2px 14px;
+margin: 0;
+background: #fff;
+border: 0;
+cursor: pointer;
+outline: none;
+}
+/*.paypal_btn:hover{ background: ; }
+*/
 /*//////// SLIDER IMAGES /////////*/
 
 #img0 {
