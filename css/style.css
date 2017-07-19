@@ -16,15 +16,29 @@ html, body {
   font-family: 'Futura', sans-serif;
   max-height: 100vh;
   overflow: hidden;
+  font-size: 100%;
 }
 
 .container {
   width: 100%;
 }
 
-/*div#navbar {
-  letter-spacing: -1.4px;
-}*/
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+
+div#navbar-ipad {
+  display: none;
+}
+
 .nav {
   letter-spacing: -.3px;
 }
@@ -42,15 +56,19 @@ ul li {
 }
 
 ul li#logo {
-  font-size: 30px;
+  font-size: 200%; /*30px*/
   letter-spacing: -1.4px;
+}
+
+ul li#logo-ipad {
+  display: none;
 }
 
 ul li#print_archive {
   color: #C0C0C0;
 }
 
-ul a {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -113,6 +131,10 @@ div.social-media img {
        -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
+}
+
+div.slick-slider {
+  width: 100vw;
 }
 
 .slider {
@@ -231,4 +253,115 @@ outline: none;
   background-position: center;
   height: 32em;
   width: 58em;
+}
+
+/*/////////////   MEDIA QUERIES  ////////////////*/
+
+@media only screen and (max-width: 642px){
+  ul li#print_archive {
+    display: none;
+  }
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* iPad 1 and 2 Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  div#navbar-ipad {
+  display: block;
+  }
+
+  ul li#logo {
+    display: none;
+  }
+
+  ul li#logo-ipad {
+    display: block;
+    font-size: 2em;
+    letter-spacing: -1.4px; 
+    margin-top: 3%;
+  }
+
+  .nav {
+    font-size: 140%;
+  }
+
+  .slider {
+    margin-top: 20%;
+  }
+    
+
+    *::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+  } 
+}
+
+
+
+  /* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+div#navbar-ipad {
+  display: block;
+  }
+
+  ul {
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: .5em;
+  }
+
+  ul li#logo {
+    display: none;
+  }
+
+  ul li#logo-ipad {
+    display: block;
+    font-size: 1.7em;
+    letter-spacing: -1.4px; 
+    margin-top: 3%;
+  }
+
+  .nav {
+    font-size: 110%;
+  }
+
+  .slider {
+    margin-top: 10%;
+  }
+
+  span#hide_for_mobile {
+    display: none;
+  }
+
+  *::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+  } 
+
+  section#about {
+    width: 65%;
+    font-size: 83%
+  }
+
+  section#about p {
+     -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+  section#about p#description {
+    padding-top: 20%;
+  }
+
+  #img0 {
+  background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
+  background-position: center top;
+  height: 24em;
+  }
+
+  #img1 {
+  background-image: url("../placeholderimages/placeholder_current_2.jpg");
+  background-position: 50% 25%;
+  height: 32em;
+  }
+
 }
