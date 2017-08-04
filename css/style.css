@@ -322,7 +322,7 @@ div#navbar-ipad {
   }
 
   .nav {
-    font-size: 110%;
+    font-size: 105%;
   }
 
   .slider {
@@ -355,13 +355,13 @@ div#navbar-ipad {
   #img0 {
   background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
   background-position: center top;
-  height: 24em;
+  height: 20em;
   }
 
   #img1 {
   background-image: url("../placeholderimages/placeholder_current_2.jpg");
   background-position: 50% 25%;
-  height: 32em;
+  height: 20em;
   }
 
 }
