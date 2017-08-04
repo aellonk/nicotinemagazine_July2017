@@ -306,8 +306,8 @@ div#navbar-ipad {
   }
 
   ul {
-    -webkit-margin-before: .5em;
-    -webkit-margin-after: .5em;
+    -webkit-margin-before: .2em;
+    -webkit-margin-after: .2em;
   }
 
   ul li#logo {
@@ -326,7 +326,7 @@ div#navbar-ipad {
   }
 
   .slider {
-    margin-top: 4%;
+    margin-top: 2%;
   }
 
   span#hide_for_mobile {
