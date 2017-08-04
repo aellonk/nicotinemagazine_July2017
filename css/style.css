@@ -340,7 +340,8 @@ div#navbar-ipad {
 
   section#about {
     width: 65%;
-    font-size: 83%
+    font-size: 83%;
+    margin-top: 5%;
   }
 
   section#about p {
