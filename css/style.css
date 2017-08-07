@@ -15,7 +15,8 @@
 html, body {
   font-family: 'Futura', sans-serif;
   max-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: visible;
   font-size: 100%;
   margin: 0;
 }
@@ -187,11 +188,11 @@ section#buy a {
 
 section#about {
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 p#description {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 /*///////// CARTON /////////*/
@@ -265,6 +266,107 @@ outline: none;
 
 }
 
+/* small browsers */
+@media only screen and (min-width: 568px) and (max-width: 653px) and (-webkit-min-device-pixel-ratio: 1) {
+  div#navbar-ipad {
+  display: block;
+  }
+
+  ul li#logo {
+    display: none;
+  }
+
+  ul li#logo-ipad {
+    display: block;
+    font-size: 2em;
+    letter-spacing: -1.4px; 
+    margin-top: 3%;
+  }
+
+  .slider {
+    margin-top: 2em;
+  }
+
+  section#about {
+    margin-top: 10%;
+    width: 65%;
+    font-size: 83%;
+  }
+
+}
+
+ /* smaller browsers */
+@media only screen and (min-width: 320px) and (max-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+div#navbar-ipad {
+  display: block;
+  }
+
+  ul {
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: .5em;
+  }
+
+  ul li#logo {
+    display: none;
+  }
+
+  ul li#logo-ipad {
+    display: block;
+    font-size: 1.7em;
+    letter-spacing: -1.4px; 
+    margin-top: 3%;
+  }
+
+  .nav {
+    font-size: 105%;
+  }
+
+  .slider {
+    margin-top: 8%;
+  }
+
+  span#hide_for_mobile {
+    display: none;
+  }
+
+  *::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+  } 
+
+  section#about {
+    width: 65%;
+    font-size: 83%;
+    margin-top: 15%;
+  }
+
+  section#about p {
+     -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+  section#about p#description {
+    padding-top: 20%;
+  }
+
+  #img0 {
+  background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
+  background-position: center top;
+  height: 20em;
+  }
+
+  #img1 {
+  background-image: url("../placeholderimages/placeholder_current_2.jpg");
+  background-position: 50% 25%;
+  height: 20em;
+  }
+
+}
+
+
+
+
+
 /* ----------- iPad 1 and 2 ----------- */
 /* iPad 1 and 2 Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -300,7 +402,7 @@ outline: none;
 
 
 
-  /* Portrait and Landscape */
+  /* iphone Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 div#navbar-ipad {
   display: block;
