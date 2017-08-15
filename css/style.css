@@ -613,7 +613,7 @@ div#navbar-ipad {
   section#about {
     width: 65%;
     font-size: 83%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   div#description {
@@ -626,12 +626,8 @@ div#navbar-ipad {
   }
 
   section#current {
-    margin-top: 5%;
-}
-
-/*  section#about p#description {
-    padding-top: 20%;
-  }*/
+    margin-top: 8%;
+  }
 
   #img0 {
   background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
