@@ -625,6 +625,10 @@ div#navbar-ipad {
     -webkit-margin-after: 0em;
   }
 
+  section#current {
+    margin-top: 5%;
+}
+
 /*  section#about p#description {
     padding-top: 20%;
   }*/
