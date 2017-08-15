@@ -188,11 +188,19 @@ section#buy a {
 
 section#about {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 3.5%;
 }
 
-p#description {
-  margin-top: 10%;
+div#description {
+  margin-bottom: 2%;
+  
+}
+
+.bottom-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
 }
 
 /* /////// CURRENT /////// */
