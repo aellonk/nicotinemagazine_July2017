@@ -248,13 +248,15 @@ cursor: pointer;
 outline: none;
 }
 
-
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button-bevel;
+}
 /*.paypal_btn:hover{ background: ; }
 */
 /*//////// SLIDER IMAGES /////////*/
 
 #img0 {
-  background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
+  background-image: url("../images/issue01/NICOTINECOVER.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -263,13 +265,158 @@ outline: none;
 }
 
 #img1 {
-  background-image: url("../placeholderimages/placeholder_current_2.jpg");
+  background-image: url("../images/issue01/NICOTINE01.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 32em;
   width: 58em;
 }
+
+#img2 {
+  background-image: url("../images/issue01/NICOTINE02.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img3 {
+  background-image: url("../images/issue01/NICOTINE03.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img4 {
+  background-image: url("../images/issue01/NICOTINE04.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img5 {
+  background-image: url("../images/issue01/NICOTINE05.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img6 {
+  background-image: url("../images/issue01/NICOTINE06.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img7 {
+  background-image: url("../images/issue01/NICOTINE07.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img8 {
+  background-image: url("../images/issue01/NICOTINE08.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img9 {
+  background-image: url("../images/issue01/NICOTINE09.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img10 {
+  background-image: url("../images/issue01/NICOTINE10.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img11 {
+  background-image: url("../images/issue01/NICOTINE11.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img12 {
+  background-image: url("../images/issue01/NICOTINE12.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img13 {
+  background-image: url("../images/issue01/NICOTINE13.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img14 {
+  background-image: url("../images/issue01/NICOTINE14.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img15 {
+  background-image: url("../images/issue01/NICOTINE15.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img16 {
+  background-image: url("../images/issue01/NICOTINE16.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
+#img17 {
+  background-image: url("../images/issue01/NICOTINE17.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 32em;
+  width: 58em;
+}
+
 
 /*/////////////   MEDIA QUERIES  ////////////////*/
 
