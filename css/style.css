@@ -193,7 +193,6 @@ section#about {
 
 div#description {
   margin-bottom: 2%;
-  
 }
 
 .bottom-center {
@@ -307,6 +306,10 @@ outline: none;
     font-size: 83%;
   }
 
+  div#description {
+    font-size: 83%;
+  }
+
 }
 
  /* smaller browsers */
@@ -354,14 +357,18 @@ div#navbar-ipad {
     margin-top: 15%;
   }
 
+  div#description {
+    font-size: 83%;
+  }
+
   section#about p {
      -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
   }
 
-  section#about p#description {
+  /*section#about p#description {
     padding-top: 20%;
-  }
+  }*/
 
   #img0 {
   background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
@@ -461,14 +468,18 @@ div#navbar-ipad {
     margin-top: 15%;
   }
 
+  div#description {
+    font-size: 83%;
+  }
+
   section#about p {
      -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
   }
 
-  section#about p#description {
+/*  section#about p#description {
     padding-top: 20%;
-  }
+  }*/
 
   #img0 {
   background-image: url("../placeholderimages/issue01_cover_placeholder.jpg");
