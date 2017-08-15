@@ -613,11 +613,12 @@ div#navbar-ipad {
   section#about {
     width: 65%;
     font-size: 83%;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   div#description {
     font-size: 83%;
+    margin-bottom: 1%;
   }
 
   section#about p {
