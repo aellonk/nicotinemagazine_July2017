@@ -177,8 +177,9 @@ section#buy a {
 }
 
 .margin-top {
-  margin-top: 2em;
+  margin-top: 1em;
 }
+
 
 /*/////////// ABOUT /////////*/
 
@@ -614,8 +615,83 @@ div#navbar-ipad {
 
 }
 
+/* ----------smaller height browsers -------- */
+@media only screen and (min-height: 500px) and (max-height: 690px) and (-webkit-min-device-pixel-ratio: 1) {
+#img0 {
+  height: 28em;
+
+}
+
+#img1 {
+  height: 28em;
+}
+
+#img2 {
+  height: 28em;
+}
+
+#img3 {
+  height: 28em;
+}
+
+#img4 {
+  height: 28em;
+}
+
+#img5 {
+  height: 28em;
+}
+
+#img6 {
+  height: 28em;
+}
+
+#img7 {
+  height: 28em;
+}
+
+#img8 {
+  height: 28em;
+}
+
+#img9 {
+  height: 28em;
+}
+
+#img10 {
+  height: 28em;
+}
+
+#img11 {
+  height: 28em;
+}
+
+#img12 {
+  height: 28em;
+}
+
+#img13 {
+  height: 28em;
+}
+
+#img14 {
+  height: 28em;
+}
+
+#img15 {
+  height: 28em;
+}
+
+#img16 {
+  height: 28em;
+}
+
+#img17 {
+  height: 28em;
+}
 
 
+}
 
 
 /* ----------- iPad 1 and 2 ----------- */
