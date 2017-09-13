@@ -768,6 +768,8 @@ div#navbar-ipad {
   -webkit-appearance: none;
   } 
 
+  _::-webkit-:host:not(:root:root), #cost { margin-top: -20px; }
+
   section#about {
     width: 65%;
     font-size: 83%;
