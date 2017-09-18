@@ -169,12 +169,13 @@ div.slick-active {
 
 section#buy {
   text-align: center;
+   bottom: -20px;
 }
 
 section#buy a {
   color: inherit;
   text-decoration: none;
-  bottom : -10px;
+
 }
 
 .margin-top {
