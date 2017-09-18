@@ -772,6 +772,10 @@ div#navbar-ipad {
 
   _::-webkit-:host:not(:root:root), .cost { margin-top: -20px; }
 
+  section#buy {
+   bottom: -20px;
+}
+
   section#about {
     width: 65%;
     font-size: 83%;
