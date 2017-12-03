@@ -66,9 +66,6 @@ ul li#logo-ipad {
   display: none;
 }
 
-ul li#print_archive {
-  color: #C0C0C0;
-}
 
 a {
   text-decoration: none;
@@ -427,12 +424,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 /*/////////////   MEDIA QUERIES  ////////////////*/
 
-@media only screen and (max-width: 642px){
-  ul li#print_archive {
-    display: none;
-  }
 
-}
 
 /* small browsers */
 @media only screen and (min-width: 568px) and (max-width: 653px) and (-webkit-min-device-pixel-ratio: 1) {
