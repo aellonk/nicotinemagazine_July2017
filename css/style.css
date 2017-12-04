@@ -255,8 +255,29 @@ outline: none;
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button-bevel;
 }
-/*.paypal_btn:hover{ background: ; }
-*/
+
+
+/*//////////// DIGITAL /////////////*/
+
+.digital { 
+  background-image: url("../anna_zagrodzka_contribs.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+  width: 10.7vw;
+  height: 51vh;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: inline-block;
+  }
+
+  .digital:hover {
+   background: black;
+  }
+
+ .digital:active {
+    border: 2px solid blue;
+ }
 /*//////// SLIDER IMAGES /////////*/
 
 #img0 {
