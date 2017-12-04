@@ -259,14 +259,17 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 /*//////////// DIGITAL /////////////*/
 
+.height {
+  height: 100%;
+}
+
 .digital { 
   background-image: url("../anna_zagrodzka_contribs.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border: 2px solid red;
-  width: 10.7vw;
+  width: 11.3vw;
   height: 51vh;
-  margin-left: 0.5em;
   margin-right: 0.5em;
   display: inline-block;
   }
@@ -278,6 +281,28 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
  .digital:active {
     border: 2px solid blue;
  }
+
+ .story {
+    margin-top: 2em;
+    position: absolute;
+    left: 50%;
+    top:125%;
+    transform: translate(-50%, -50%);
+    height: 100%
+ }
+
+ .story_image {
+  background: url("../NICOTINE02.jpg");
+  background-size: contain;
+  height: 100%;
+ }
+
+ #story_image_1 {
+  height: 27em;
+ }
+
+
+
 /*//////// SLIDER IMAGES /////////*/
 
 #img0 {
