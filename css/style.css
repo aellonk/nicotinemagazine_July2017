@@ -301,7 +301,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   height: 27em;
  }
 
+/*////////////STOCKISTS///////////*/
 
+section#stockists {
+  text-align: center;
+  margin-top: 12%;
+}
 
 /*//////// SLIDER IMAGES /////////*/
 
